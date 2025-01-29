@@ -5,7 +5,7 @@ from googletrans import Translator
 import asyncio  # Import asyncio to handle asynchronous functions
 
 # Specify the path to Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Abit_\tesseract.exe'  # Change this path as needed
+pytesseract.pytesseract.tesseract_cmd = 'tesseract.exe'  # Change this path as needed for the tesseract.exe file 
 
 # Function to extract text from image using OCR
 def extract_text_from_image(image_path):
@@ -41,7 +41,7 @@ def display_translation(original_text, translated_text):
 
 # Example usage with asyncio to run the async translation function
 async def main():
-    image_path = r"C:\Users\Abit_\Hello.jpg"
+    image_path = 'Image_path'
 
     # 1. Extract text from image
     extracted_text = extract_text_from_image(image_path)
