@@ -59,11 +59,12 @@ Modify the following line with your correct path:
 
 python
 
-# For Windows (Example path)
+For Windows (Example path)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# For Linux/macOS (Usually in system PATH, so this line might be unnecessary)
-# pytesseract.pytesseract.tesseract_cmd = 'tesseract'
+For Linux/macOS (Usually in system PATH, so this line might be unnecessary)
+pytesseract.pytesseract.tesseract_cmd = 'tesseract'
+
 # 🚀 Usage
 Place your image: Save the image you want to process in the project directory. Ensure the text in the image is clear and in English.
 
